@@ -1,0 +1,132 @@
+*{  margin: 0;
+  padding: 0;}
+html, body {
+  height: 100vh;
+}
+
+
+@font-face {
+    font-family: "alpino";
+    src: url("FONT/Alpino-Variable.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "pex";
+    src: url("FONT/Pex445-Regular.ttf") format("truetype");
+}
+
+#mon_nom 
+{
+    margin-top: 17vh;
+    width: 60vw;
+    left: 20vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+
+
+p{
+	overflow: visible;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1,5vmin;
+    font-family: "pex";
+    
+}
+
+
+#discute 
+{
+    margin-top: 40vh;
+    width: 40vw;
+    left: 55vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+
+#experiences
+{
+    margin-top: 70vh;
+    width: 40vw;
+    left: 55vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+
+p1{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5vmin;
+    font-family: "pex";
+    
+}
+
+
+#mail 
+{
+    margin-top: 47vh;
+    width: 35vw;
+    left: 55vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+
+#expe 
+{
+    margin-top: 77vh;
+    width: 35vw;
+    left: 55vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+p2{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    
+}
+
+
+#moi {
+	position: absolute;
+	width: 40vw;
+    left: 5vw;
+    margin-top: 40vh;
+    
+}
+
+#image_fond {
+	position: absolute;
+	width: 18vw;
+    left: 10vw;
+    top: 200vh;
+    
+}
+
+
+
+
+
+
+
+
+#image_home {
+	position: absolute;
+	width: 5vw;
+    left: 47.5vw;
+    margin-top: 4vh;
+}
+
+
