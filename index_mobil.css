@@ -21,6 +21,9 @@ html, body {
 
 
 
-<div style="text-align: center;">
-    <img src="TS/240428_TETE_MULET.png" alt="Image">
-</div>
+#image_home {
+	position: fixed;
+	width: 5vw;
+    left: 50%;
+    margin-top: 3vh;
+}
