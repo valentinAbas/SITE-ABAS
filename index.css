@@ -518,5 +518,37 @@ p5{
     color: darksalmon;
 }
 
+@media (max-width: 600px) {
+    #image_couv, #image_couv_SMD, #image_couv_ombre_papier, 
+    #image_couv_kactus, #image_couv_ecob, #image_couv_monfort, 
+    #image_couv_cardos, #image_couv_TAC {
+        width: 90vw;
+        left: 5vw;
+    }
+
+    #presentation, #citation {
+        width: 90vw;
+        left: 5vw;
+        margin-top: 20vh;
+    }
+
+    p, p1, p2, p3, p4, p5 {
+        font-size: 4vmin;
+        text-align: left;
+    }
+
+    #nom_SMD, #nom_ombre_papier, #nom_kactus, 
+    #nom_ecob, #nom_monfort, #nom_cardos, 
+    #nom_TAC {
+        width: 90vw;
+        left: 5vw;
+        margin-top: 10vh;
+    }
+
+    #contact {
+        font-size: 3vh;
+    }
+}
+
 
 
