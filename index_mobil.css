@@ -26,7 +26,8 @@ html, body {
 }
 
 #image_couv_SMD {
-    margin-top: 20px; /* Espacement de 20px entre chaque image */
+    margin-top: 20px;
+    left: 10px; /* Espacement de 20px entre chaque image */
 }
 
 #image2 {
