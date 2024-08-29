@@ -502,14 +502,14 @@ p5{
 
 #image_home {
 	position: absolute;
-	width: 15vw;
+	width: 30vw;
     left: 44vw;
     margin-top: 3vh;
     
 }
 
 #valentin {
-	left: 2vw;
+	left: 4vw;
 	top:14vh;
 	position: absolute;
 	text-align: center;
