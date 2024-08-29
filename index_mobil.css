@@ -1,0 +1,591 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+    font-family: "alpino";
+    src: url("FONT/Alpino-Variable.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "pex";
+    src: url("FONT/Pex445-Regular.ttf") format("truetype");
+}
+
+
+
+#image_couv {
+	position: absolute;
+	width: 100vw;
+    opacity: 0;
+}
+
+
+#presentation 
+{
+    top: 930vh;
+    position: absolute;
+	overflow: auto;
+	color: black;
+    
+}
+
+#citation 
+{
+    margin-top: 210vh;
+    width: 60vw;
+    left: 5vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+p{
+	overflow: visible;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vmin;
+    font-family: "alpino";
+    
+}
+
+p4{
+	overflow: visible;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vmin;
+    font-family: "pex";
+    
+}
+
+
+
+#nom_SMD 
+{
+    top: 150vh;
+    
+	position: absolute;
+    width: 100vw;
+	color: black;
+    font-size: 15vh;
+    
+}
+
+
+
+
+
+
+
+#nom_ombre_papier 
+{
+    top: 300vh;
+  
+	position: absolute;
+	
+	color: black;
+    font-size: 8vh;
+}
+
+
+
+
+
+
+#nom_kactus 
+{
+    top: 440vh;
+ 
+	position: absolute;
+	
+	color: black;
+    font-size: 8vh;
+    
+}
+
+
+
+#nom_ecob 
+{
+    top: 585vh;
+  
+	position: absolute;
+	
+	color: black;
+    font-size: 8vh;
+}
+
+
+
+
+#nom_monfort 
+{
+    top: 730vh;
+  
+	position: absolute;
+	
+	color: black;
+    font-size: 8vh;
+}
+
+
+
+
+#nom_cardos 
+{
+    top: 875vh;
+    
+	position: absolute;
+	
+	color: black;
+    font-size: 8vh;
+}
+
+
+
+#nom_TAC 
+{
+    top: 890vh;
+    
+	position: absolute;
+	
+	color: black;
+    font-size: 8vh;
+   
+}
+
+
+
+
+
+
+
+p1{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1,5vmin;
+    font-family: "pex";
+    
+}
+
+p2{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    color: crimson;
+    
+}
+
+p3{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    color: darkcyan;
+    
+}
+
+p5{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    color: darkorange;
+    
+}
+
+
+#image_couv_SMD {
+	position: absolute;
+	
+    width: 600vw;
+    top: 55vh;
+    
+}
+
+.containerSMD {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0; 
+}
+
+
+
+.hover-imageSMD {
+    position: absolute;
+    width: 18vw;
+    top: 200vh;
+    left: 0,2vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    
+}
+
+.hover-imageSMD:hover {
+    opacity: 1;
+}
+
+
+
+#image_couv_ombre_papier {
+	position: absolute;
+	
+  
+    top: 205vh;
+    
+    
+}
+
+.containerombre {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+.hover-imageombre {
+    position: absolute;
+    width: 18vw;
+    top: 200vh;
+    left: 31vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imageombre:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+#image_couv_kactus {
+	position: absolute;
+	
+    top: 345vh;
+    
+    
+}
+
+.containerkactus {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+.hover-imageKactus {
+    position: absolute;
+    width: 18vw;
+    top: 220vh;
+    left: 72vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imageKactus:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+#image_couv_ecob {
+	position: absolute;
+
+    top: 490vh;
+   
+}
+
+.containerecob {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+.hover-imageecob {
+    position: absolute;
+    width: 18vw;
+    top: 270vh;
+    left: 0vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imageecob:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_monfort {
+	position: absolute;
+	
+    top: 635vh;
+   
+    
+}
+
+.containermont {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+.hover-imagemont {
+    position: absolute;
+    width: 18vw;
+    top: 270vh;
+    left: 31vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imagemont:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_cardos {
+	position: absolute;
+
+    top: 780vh;
+  
+    
+}
+
+.containercardos {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+.hover-imagecardos {
+    position: absolute;
+    width: 18vw;
+    top: 270vh;
+    left: 62vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imagecardos:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_TAC {
+	position: absolute;
+	
+    top: 795vh;
+   
+    
+}
+
+.containerTAC {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+.hover-imageTAC {
+    position: absolute;
+    width: 18vw;
+    top: 340vh;
+    left: 0vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imageTAC:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#image_fond {
+	position: absolute;
+	width: 10vw;
+    top: 1100vh;
+    opacity: 0;
+    
+}
+
+
+
+
+#image_home {
+	position: absolute;
+	width: 15vw;
+    left: 44vw;
+    margin-top: 3vh;
+    
+}
+
+#valentin {
+	left:  15vw;
+	top:22vh;
+	position: absolute;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8vh;
+	color: black;
+    font-family: "pex";
+}
+
+#mail {
+	left:  10vw;
+	top: 1075vh;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 6vh;
+	color: cornflowerblue;
+    font-family: "pex";
+}
+
+#contact {
+	left:  47vw;
+	top: 30vh;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4vh;
+	color: black;
+    font-family: "pex";
+    opacity: 0;
+    
+}
+
+#contact:hover{
+    color: darksalmon;
+}
+
+
+@media (max-width: 600px) {
+    #image_couv, #image_couv_SMD, #image_couv_ombre_papier, 
+    #image_couv_kactus, #image_couv_ecob, #image_couv_monfort, 
+    #image_couv_cardos, #image_couv_TAC {
+        width: 90vw;
+        left: 5vw;
+    }
+
+    #presentation, #citation {
+        width: 90vw;
+        left: 5vw;
+        margin-top: 20vh;
+    }
+
+    p, p1, p2, p3, p4, p5 {
+        font-size: 4vmin;
+        text-align: left;
+    }
+
+    #nom_SMD, #nom_ombre_papier, #nom_kactus, 
+    #nom_ecob, #nom_monfort, #nom_cardos, 
+    #nom_TAC {
+        width: 90vw;
+        left: 5vw;
+        margin-top: 10vh;
+       
+    }
+
+    #contact {
+        font-size: 3vh;
+    }
+}
