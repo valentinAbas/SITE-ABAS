@@ -1,0 +1,505 @@
+*{  margin: 0;
+  padding: 0;}
+html, body {
+  height: 100vh;
+  width: 40vw;
+}
+
+
+@font-face {
+    font-family: "alpino";
+    src: url("FONT/Alpino-Variable.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "pex";
+    src: url("FONT/Pex445-Regular.ttf") format("truetype");
+}
+
+
+
+#image_couv {
+	position: absolute;
+	margin-top: 0vh;
+    width: 100vw;
+    opacity: 0;
+    
+}
+
+
+#presentation 
+{
+    margin-top: 300vh;
+    width: 60vw;
+    left: 20vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+#citation 
+{
+    margin-top: 210vh;
+    width: 60vw;
+    left: 5vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+p{
+	overflow: visible;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vmin;
+    font-family: "alpino";
+    
+}
+
+p4{
+	overflow: visible;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vmin;
+    font-family: "pex";
+    
+}
+
+
+
+#nom_SMD 
+{
+    margin-top: 45vh;
+    width: 15vw;
+    left: 40vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    
+}
+
+
+
+
+
+
+
+#nom_ombre_papier 
+{
+    margin-top: 268vh;
+    width: 15vw;
+    left: 41vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+
+
+
+
+#nom_kactus 
+{
+    margin-top: 268vh;
+    width: 15vw;
+    left: 72vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+
+#nom_ecob 
+{
+    margin-top: 338vh;
+    width: 15vw;
+    left: 10vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+
+
+#nom_monfort 
+{
+    margin-top: 338vh;
+    width: 15vw;
+    left: 41vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+
+
+#nom_cardos 
+{
+    margin-top: 338vh;
+    width: 15vw;
+    left: 72vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+
+#nom_TAC 
+{
+    margin-top: 408vh;
+    width: 15vw;
+    left: 10vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+p1{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1,5vmin;
+    font-family: "pex";
+    
+}
+
+p2{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    color: crimson;
+    
+}
+
+p3{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    color: darkcyan;
+    
+}
+
+p5{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2,5vmin;
+    font-family: "alpino";
+    color: darkorange;
+    
+}
+
+
+#image_couv_SMD {
+	position: absolute;
+	margin-top: 50vh;
+    margin-left: 0vw; 
+    
+    
+}
+
+.containerSMD {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+#image_couv_ombre_papier {
+	position: absolute;
+	width: 18vw;
+    left: 41vw;
+    top: 220vh;
+    opacity: 0;
+    
+}
+
+.containerombre {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#image_couv_kactus {
+	position: absolute;
+	width: 18vw;
+    left: 72vw;
+    top: 220vh;
+    opacity: 0;
+    
+}
+
+.containerkactus {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_ecob {
+	position: absolute;
+	width: 18vw;
+    left: 10vw;
+    top: 290vh;
+    opacity: 0;
+    
+}
+
+.containerecob {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_monfort {
+	position: absolute;
+	width: 18vw;
+    left: 41vw;
+    top: 290vh;
+    opacity: 0;
+    
+}
+
+.containermont {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_cardos {
+	position: absolute;
+	width: 18vw;
+    left: 72vw;
+    top: 290vh;
+    opacity: 0;
+    
+}
+
+.containercardos {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image_couv_TAC {
+	position: absolute;
+	width: 18vw;
+    left: 10vw;
+    top: 360vh;
+    opacity: 0;
+    
+}
+
+.containerTAC {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image_fond {
+	position: absolute;
+	height: 1vh;
+    left: 10vw;
+    top: 430vh;
+    opacity: 0;
+    
+}
+
+
+
+
+#image_home {
+	position: fixed;
+	width: 5vw;
+    left: 3vw;
+    margin-top: 3vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+#contact {
+	left:  42vh;
+	top: 4vh;
+	position: fixed;
+	overflow: visible;
+	white-space: nowrap;
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3.5vh;
+	color: black;
+    font-family: "pex";
+}
+
+#contact:hover{
+    color: darksalmon;
+}
+
+
+@media (max-width: 600px) {
+    #image_couv, #image_couv_SMD, #image_couv_ombre_papier, 
+    #image_couv_kactus, #image_couv_ecob, #image_couv_monfort, 
+    #image_couv_cardos, #image_couv_TAC {
+        width: 90vw;
+        left: 5vw;
+    }
+
+    #presentation, #citation {
+        width: 90vw;
+        left: 5vw;
+        margin-top: 20vh;
+    }
+
+    p, p1, p2, p3, p4, p5 {
+        font-size: 4vmin;
+        text-align: left;
+    }
+
+    #nom_SMD, #nom_ombre_papier, #nom_kactus, 
+    #nom_ecob, #nom_monfort, #nom_cardos, 
+    #nom_TAC {
+        width: 90vw;
+        left: 5vw;
+        margin-top: 10vh;
+    }
+
+    #contact {
+        font-size: 3vh;
+    }
+}
