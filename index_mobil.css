@@ -521,8 +521,8 @@ p5{
 }
 
 #mail {
-	left:  0vw;
-	top: 700vh;
+	right:  3vw;
+	top: 680vh;
 	position: absolute;
 	overflow: visible;
 	white-space: nowrap;
