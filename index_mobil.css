@@ -502,20 +502,20 @@ p5{
 
 #image_home {
 	position: fixed;
-	width: 15vw;
+	width: 20vw;
     left: 3vw;
     top: 3vh;
     
 }
 
 #valentin {
-	right: 0vw;
+	right: 3vw;
 	top: 4vh;
 	position: fixed;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 4vh;
+	font-size: 4.5vh;
 	color: black;
     font-family: "pex";
 }
