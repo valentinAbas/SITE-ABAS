@@ -28,7 +28,7 @@ html, body {
 
 #presentation 
 {
-    top: 930vh;
+    top: 600vh;
     position: absolute;
 	overflow: auto;
 	color: black;
@@ -492,7 +492,7 @@ p5{
 #image_fond {
 	position: absolute;
 	width: 10vw;
-    top: 1100vh;
+    top: 690vh;
     opacity: 0;
     
 }
@@ -522,7 +522,7 @@ p5{
 
 #mail {
 	left:  0vw;
-	top: 1075vh;
+	top: 650vh;
 	position: absolute;
 	overflow: visible;
 	white-space: nowrap;
