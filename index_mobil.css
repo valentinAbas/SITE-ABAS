@@ -509,13 +509,13 @@ p5{
 }
 
 #valentin {
-	right: 3vw;
+	right: 0vw;
 	top: 4vh;
 	position: fixed;
 	text-align: center;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 5vh;
+	font-size: 4vh;
 	color: black;
     font-family: "pex";
 }
