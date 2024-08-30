@@ -1,0 +1,210 @@
+
+html, body {
+ width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+    font-family: "alpino";
+    src: url("FONT/Alpino-Variable.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "pex";
+    src: url("FONT/Pex445-Regular.ttf") format("truetype");
+}
+
+#nom_projet 
+{
+    right: 3vw;
+	top: 4vh;
+	position: absolute;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4.5vh;
+	color: black;
+    font-family: "pex";
+}
+
+p1{
+	overflow: visible;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 5vmin;
+    font-family: "pex";
+    
+}
+
+
+#explication_projet 
+{
+    top: 35vh;
+    height: 10vh;
+    width: 90vw;
+    left: 5vw;
+    position: absolute;
+	overflow: auto;
+	color: black;
+    
+}
+
+
+p2{
+	overflow: visible;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4vw;
+    font-family: "alpino";
+    
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60vh;
+    width: 90vw;
+    left: 5vw;
+    
+    
+}
+
+.image1 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image2 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image3 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image4 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image5 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+
+.image6 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image7 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image8 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image9 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image10 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+
+.image11 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+
+.image12 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image13 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image14 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image15 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.image16 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.video1 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.video2 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.video3 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+.video4 {
+    margin-top: 20px; /* Espacement de 20px entre chaque image */
+}
+
+
+
+
+#image_fond {
+	position: absolute;
+	height: 1vh;
+    left: 10vw;
+    top: 1458vh;
+    
+}
+
+
+
+
+
+
+#image_home {
+	position: fixed;
+	width: 20vw;
+    left: 3vw;
+    top: 3vh;
+
+}
+
+
+#contact {
+	right: 4vh;
+	top: 4vh;
+	position: fixed;
+	overflow: visible;
+	white-space: nowrap;
+	cursor: pointer;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3.5vh;
+	color: black;
+    font-family: "pex";
+    opacity: 0;
+}
+
+#contact:hover{
+    color: darksalmon;
+    
