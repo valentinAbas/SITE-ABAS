@@ -123,6 +123,7 @@ p2{
 	width: 18vw;
     left: 10vw;
     top: 200vh;
+    opacity: O;
     
 }
 
@@ -145,6 +146,6 @@ p2{
 #moi {
 	position: absolute;
 	width: 100vw;
-    top: 205vh;
+    top: 250vh;
     
 }
