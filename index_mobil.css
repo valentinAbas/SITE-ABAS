@@ -74,7 +74,7 @@ p4{
     top: 70vh;
     
 	position: absolute;
-    width: 100vw;
+    
 	color: black;
     font-size: 3vh;
     
@@ -88,12 +88,12 @@ p4{
 
 #nom_ombre_papier 
 {
-    top: 300vh;
+    top: 160vh;
   
 	position: absolute;
 	
 	color: black;
-    font-size: 8vh;
+    font-size: 3vh;
 }
 
 
