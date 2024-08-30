@@ -71,12 +71,12 @@ p4{
 
 #nom_SMD 
 {
-    top: 150vh;
+    top: 70vh;
     
 	position: absolute;
     width: 100vw;
 	color: black;
-    font-size: 15vh;
+    font-size: 3vh;
     
 }
 
@@ -217,7 +217,7 @@ p5{
 	position: absolute;
 	
     width: 600vw;
-    top: 25vh;
+    top: 22vh;
     
 }
 
