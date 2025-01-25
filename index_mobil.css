@@ -167,7 +167,7 @@ p4{
 
 #nom_belledonne 
 {
-    top: 643vh;
+    top: 710vh;
     
 	position: absolute;
 	
@@ -496,7 +496,7 @@ p5{
 
 #image_couv_belledonne {
 	position: absolute;
-	
+	left: 5vw;
     width: 90vw;
     top: 600vh;
     
