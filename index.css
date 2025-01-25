@@ -159,6 +159,16 @@ p4{
 }
 
 
+#nom_belledonne 
+{
+    margin-top: 408vh;
+    width: 15vw;
+    left: 41vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+
 
 
 
@@ -462,6 +472,45 @@ p5{
 }
 
 .hover-imageTAC:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+#image_couv_belledonne {
+	position: absolute;
+	width: 18vw;
+    left: 41vw;
+    top: 360vh;
+    
+}
+
+.containerbelledonne {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+}
+
+
+
+.hover-imagebelledonne {
+    position: absolute;
+    width: 18vw;
+    top: 340vh;
+    left: 31vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imagebelledonne:hover {
     opacity: 1;
 }
 
