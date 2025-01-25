@@ -28,7 +28,7 @@ html, body {
 
 #presentation 
 {
-    top: 580vh;
+    top: 660vh;
     position: absolute;
 	overflow: auto;
 	color: black;
@@ -555,7 +555,7 @@ p5{
 
 #made
 {
-    margin-top: 690vh;
+    margin-top: 730vh;
     width: 90vw;
     left: 5;
 	position: absolute;
@@ -605,7 +605,7 @@ p13{
 
 #mail {
 	right:  3vw;
-	top: 680vh;
+	top: 700vh;
 	position: absolute;
 	overflow: visible;
 	white-space: nowrap;
