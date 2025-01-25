@@ -167,7 +167,7 @@ p4{
 
 #nom_belledonne 
 {
-    top: 710vh;
+    top: 660vh;
     
 	position: absolute;
 	
@@ -570,7 +570,7 @@ p5{
 
 #made
 {
-    margin-top: 800vh;
+    margin-top: 770vh;
     width: 90vw;
     left: 5;
 	position: absolute;
@@ -620,7 +620,7 @@ p13{
 
 #mail {
 	right:  3vw;
-	top: 780vh;
+	top: 760vh;
 	position: absolute;
 	overflow: visible;
 	white-space: nowrap;
