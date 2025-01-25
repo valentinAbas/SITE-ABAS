@@ -570,7 +570,7 @@ p5{
 
 #made
 {
-    margin-top: 850vh;
+    margin-top: 800vh;
     width: 90vw;
     left: 5;
 	position: absolute;
@@ -620,7 +620,7 @@ p13{
 
 #mail {
 	right:  3vw;
-	top: 750vh;
+	top: 780vh;
 	position: absolute;
 	overflow: visible;
 	white-space: nowrap;
