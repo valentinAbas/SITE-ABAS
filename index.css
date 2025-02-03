@@ -170,6 +170,16 @@ p4{
 }
 
 
+#nom_SDB 
+{
+    margin-top: 408vh;
+    width: 15vw;
+    left: 72vw;
+	position: absolute;
+	overflow: auto;
+	color: black;
+}
+
 
 
 
@@ -511,6 +521,38 @@ p5{
 }
 
 .hover-imagebelledonne:hover {
+    opacity: 1;
+}
+
+
+
+#image_couv_SDB {
+	position: absolute;
+	width: 18vw;
+    left: 72vw;
+    top: 360vh;
+    
+}
+
+.containerSDB {
+    position: relative;
+    width: 18vw;
+    left: 10vw;
+    top: 20vh;
+}
+
+
+
+.hover-imageSDB {
+    position: absolute;
+    width: 18vw;
+    top: 340vh;
+    left: 62vw;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-imageSDB:hover {
     opacity: 1;
 }
 
